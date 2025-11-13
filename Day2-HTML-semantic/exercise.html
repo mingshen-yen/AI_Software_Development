@@ -24,31 +24,46 @@
       <section>
         <form>
           <fieldset>
-            <legend>Personal Information</legend>
+            <legend>Sign up</legend>
 
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Firstname, Name"
+            />
             <br /><br />
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="example@email.com"
+            />
             <br /><br />
 
-            <label for="telephone">Telephone:</label>
-            <input type="tel" id="telephone" name="telephone" required />
+            <label for="telephone">Tel:</label>
+            <input
+              type="tel"
+              id="telephone"
+              name="telephone"
+              required
+              placeholder="+49 123 4567890"
+            />
             <br /><br />
-            <fieldset>
-              <legend>Course Selection</legend>
-              <select name="course" id="course" required>
-                <option value="" disabled selected>Select a course</option>
-                <option value="data_science">Data Science</option>
-                <option value="software_development">
-                  Software Development
-                </option>
-                <option value="data_analytics">Data Analytics</option>
-              </select>
-            </fieldset>
-            <br />
+
+            <label>Select Bootcamp:</label>
+            <select name="course" id="course">
+              <option value="" disabled selected>Select a course</option>
+              <option value="data_science">Data Science</option>
+              <option value="software_development">Software Development</option>
+              <option value="data_analytics">Data Analytics</option>
+            </select>
+            <br /><br />
             <input type="submit" value="Submit" />
           </fieldset>
         </form>
