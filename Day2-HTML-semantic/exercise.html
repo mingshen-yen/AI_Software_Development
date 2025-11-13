@@ -10,34 +10,49 @@
       <h1>Sign Up for a Coding School</h1>
     </header>
     <main>
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Personal Information</legend>
-
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-          <br /><br />
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-          <br /><br />
-
-          <label for="telephone">Telephone:</label>
-          <input type="tel" id="telephone" name="telephone" required />
-          <br /><br />
+      <section>
+        <h2>Course options:</h2>
+        <ul>
+          <li>Data Science</li>
+          <p>This course contains.....</p>
+          <li>Software Development</li>
+          <p>This course contains.....</p>
+          <li>Data analytics</li>
+          <p>This course contains.....</p>
+        </ul>
+      </section>
+      <section>
+        <form>
           <fieldset>
-            <legend>Course Selection</legend>
-            <select name="course" id="course" required>
-              <option value="" disabled selected>Select a course</option>
-              <option value="data_science">Data Science</option>
-              <option value="software_development">Software Development</option>
-              <option value="data_analytics">Data Analytics</option>
-            </select>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <br /><br />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br /><br />
+
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone" required />
+            <br /><br />
+            <fieldset>
+              <legend>Course Selection</legend>
+              <select name="course" id="course" required>
+                <option value="" disabled selected>Select a course</option>
+                <option value="data_science">Data Science</option>
+                <option value="software_development">
+                  Software Development
+                </option>
+                <option value="data_analytics">Data Analytics</option>
+              </select>
+            </fieldset>
+            <br />
+            <input type="submit" value="Submit" />
           </fieldset>
-          <br />
-          <input type="submit" value="Submit" />
-        </fieldset>
-      </form>
+        </form>
+      </section>
     </main>
     <footer>
       <p>&copy; 2025 Coding School Inc.</p>
