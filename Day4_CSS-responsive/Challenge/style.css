@@ -1,0 +1,45 @@
+.block-level {
+  background-color: lightblue;
+  margin: 10px 0;
+  padding: 10px;
+}
+.inline-element {
+  background-color: lightcoral;
+  margin: 0 5px;
+  padding: 5px;
+}
+/* External style */
+h3 {
+  color: #4a25b7;
+}
+
+/* selectors */
+/* simple */
+p {
+  color: #961515;
+}
+/* complex */
+div > p {
+  color: #c919a0;
+}
+
+a:hover {
+  color: #2916bb;
+}
+
+/* pseudo-element */
+p::first-letter {
+  color: #000000;
+}
+
+/* Attribute */
+input[type="text"] {
+  border: 2px solid blueviolet;
+}
+
+@media (max-width: 700px) {
+  body {
+    background: black;
+    color: aliceblue;
+  }
+}
