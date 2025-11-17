@@ -4,25 +4,41 @@
   box-sizing: border-box;
 }
 
-.paragraphClass {
-  color: red;
-}
-
 .window {
   width: 400px;
+  box-shadow: 5px 5px 5px;
 }
 
 .title {
   color: white;
+  height: 24px;
+  padding: 3px;
+  padding-left: 10px;
   background: linear-gradient(to right, rgb(7, 101, 183), rgb(119, 165, 222));
 }
 
 .content {
-  columns: 2;
+  display: flex;
+  padding: 5px;
+  padding-left: 5px;
+  justify-content: space-around;
+  align-items: center;
 }
 
+img {
+  border-radius: 70px;
+  box-shadow: 5px 5px 5px;
+}
 .button {
-  justify-items: end;
+  display: flex;
+  padding: 10px;
+  justify-content: right;
+}
+
+.btn {
+  padding: 3px;
+  margin: 10px;
+  box-shadow: 1px 1px 1px;
 }
 
 @media (max-width: 600px) {
