@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.paragraphClass {
+  color: red;
+}
+
+@media (max-width: 600px) {
+  p {
+    color: aqua;
+    background-color: black;
+  }
+  .paragraphClass {
+    color: blueviolet;
+  }
+}
