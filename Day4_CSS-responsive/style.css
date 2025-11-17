@@ -8,6 +8,23 @@
   color: red;
 }
 
+.window {
+  width: 400px;
+}
+
+.title {
+  color: white;
+  background: linear-gradient(to right, rgb(7, 101, 183), rgb(119, 165, 222));
+}
+
+.content {
+  columns: 2;
+}
+
+.button {
+  justify-items: end;
+}
+
 @media (max-width: 600px) {
   p {
     color: aqua;
