@@ -6,7 +6,9 @@
 
 .window {
   width: 400px;
-  box-shadow: 5px 5px 5px;
+  border-radius: 5px;
+  border: 0px;
+  box-shadow: 2px 2px 2px rgb(209, 206, 206);
 }
 
 .title {
@@ -27,7 +29,7 @@
 
 img {
   border-radius: 70px;
-  box-shadow: 5px 5px 5px;
+  box-shadow: 4px 4px 4px;
 }
 .button {
   display: flex;
@@ -36,17 +38,8 @@ img {
 }
 
 .btn {
-  padding: 3px;
+  border-radius: 4px;
+  padding: 5px;
   margin: 10px;
   box-shadow: 1px 1px 1px;
-}
-
-@media (max-width: 600px) {
-  p {
-    color: aqua;
-    background-color: black;
-  }
-  .paragraphClass {
-    color: blueviolet;
-  }
 }
