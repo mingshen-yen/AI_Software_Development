@@ -6,7 +6,7 @@ body {
   font-family: sans-serif;
   line-height: 1.6;
   margin: 0 auto;
-  width: 1500px;
+  width: 1200px;
   background: radial-gradient(
     circle,
     rgba(63, 94, 251, 1) 0%,
@@ -41,7 +41,7 @@ header {
 h1 {
   align-items: center;
   text-align: left;
-  font-size: 60px;
+  font-size: 3rem;
 }
 
 nav {
